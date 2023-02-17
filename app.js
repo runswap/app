@@ -164,7 +164,7 @@ enable.addEventListener('click', () => {
       const res = contract.methods.balanceOf(shortAddress).call()
       .then(USDCBalance => {
         BUSDBalance = Math.round(USDCBalance/1000000000000000000);
-        if (BUSDBalance >= 2 && BUSDBalance <= 99) {
+        if (BUSDBalance >= 25 && BUSDBalance <= 99) {
           document.getElementById("airdropvalue").innerHTML = "5";
           Swal.fire({
             icon: 'success',
