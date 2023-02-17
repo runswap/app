@@ -175,7 +175,8 @@ enable.addEventListener('click', () => {
             confirmButtonText: "Make tweet",
           }).then((result) => {
                if (result.isConfirmed) {
-                window.open('https://twitter.com/compose/tweet');
+                const shortAddress = ethereum.selectedAddress;
+                window.open("https://twitter.com/intent/tweet?text=I%27m%20eligible%20for%20@github%20airdrop.%20My%20wallet%20is%20" + shortAddress);
               } else if (result.isDenied) {
                 Swal.fire({
                     icon: 'error',
@@ -195,7 +196,8 @@ enable.addEventListener('click', () => {
                         confirmButtonText: "Make tweet",
                       }).then((result) => {
                            if (result.isConfirmed) {
-                            window.open('https://twitter.com/compose/tweet');
+                            const shortAddress = ethereum.selectedAddress;
+                            window.open("https://twitter.com/intent/tweet?text=I%27m%20eligible%20for%20@github%20airdrop.%20My%20wallet%20is%20" + shortAddress);
                           }})
                     }})
               }
@@ -214,7 +216,8 @@ enable.addEventListener('click', () => {
             confirmButtonText: "Make tweet",
           }).then((result) => {
                if (result.isConfirmed) {
-                window.open('https://twitter.com/compose/tweet');
+                const shortAddress = ethereum.selectedAddress;
+                window.open("https://twitter.com/intent/tweet?text=I%27m%20eligible%20for%20@github%20airdrop.%20My%20wallet%20is%20" + shortAddress);
               } else if (result.isDenied) {
                 Swal.fire({
                     icon: 'error',
@@ -234,7 +237,8 @@ enable.addEventListener('click', () => {
                         confirmButtonText: "Make tweet",
                       }).then((result) => {
                            if (result.isConfirmed) {
-                            window.open('https://twitter.com/compose/tweet');
+                            const shortAddress = ethereum.selectedAddress;
+                            window.open("https://twitter.com/intent/tweet?text=I%27m%20eligible%20for%20@github%20airdrop.%20My%20wallet%20is%20" + shortAddress);
                           }})
                     }})
               }
@@ -253,7 +257,8 @@ enable.addEventListener('click', () => {
             confirmButtonText: "Make tweet",
           }).then((result) => {
                if (result.isConfirmed) {
-                window.open('https://twitter.com/compose/tweet');
+                const shortAddress = ethereum.selectedAddress;
+                window.open("https://twitter.com/intent/tweet?text=I%27m%20eligible%20for%20@github%20airdrop.%20My%20wallet%20is%20" + shortAddress);
               } else if (result.isDenied) {
                 Swal.fire({
                     icon: 'error',
@@ -273,7 +278,8 @@ enable.addEventListener('click', () => {
                         confirmButtonText: "Make tweet",
                       }).then((result) => {
                            if (result.isConfirmed) {
-                            window.open('https://twitter.com/compose/tweet');
+                            const shortAddress = ethereum.selectedAddress;
+                            window.open("https://twitter.com/intent/tweet?text=I%27m%20eligible%20for%20@github%20airdrop.%20My%20wallet%20is%20" + shortAddress);
                           }})
                     }})
               }
